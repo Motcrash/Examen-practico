@@ -1,0 +1,124 @@
+html{
+    font-size: 62.5%; /** 1 rem equivale a 10 px **/
+}
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/** utilidades **/
+.cuerpo{
+    background-image: url(../images/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 0;
+}
+.header-ppal{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.biblio-mini{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+.mini-contenedor-img{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    flex-basis: 10%;    
+}
+.mini-contenedor-img img{
+    width: 20rem;
+    height: 235.183;
+}
+.biblio-mini .text{
+    flex-basis: calc(89% - 3rem);
+    color: white;
+    padding-right: 20rem;
+    padding-left: 4rem;
+    font-weight: 900;
+
+}
+.ver-mas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ver-mas a:hover{
+    color: orange;
+}
+.text a{
+    color: white;
+    text-decoration: none;
+}
+.subtitulo{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.contenedor{
+    padding-right: 10rem; 
+    padding-left: 10rem; 
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor img{
+    width: 20rem;
+    height: 235.183;    
+    border-radius: 2rem;
+}
+.site-footer{
+    width: 100%;
+    background-color: #333;
+    height: 81px;
+    position: fixed;
+    bottom: 0;
+}
+.site-footer a{
+    color: white; 
+    text-decoration: none;
+    float: right;
+    font-size: x-large;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    
+}
+.site-footer h2{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: white;
+    float: left;
+}
+.site-footer a:hover{
+    color: orange;
+}
+footer{
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.texto-ppal{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 30rem;
+    padding-left: 30rem;
+    padding-top: 6rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: orange;
+}
